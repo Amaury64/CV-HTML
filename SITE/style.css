@@ -1,0 +1,128 @@
+p {
+    color:black;
+    
+}
+
+.ma-classe{
+    color:black;
+    /*border:2px dotted black;*/
+    
+}
+
+h2{
+    font-family: 'Lobster',cursive;
+    font-size: 2em;
+}
+h3,h4{
+    font-family: 'Lobster',cursive;
+    font-size: 1em;
+}
+
+
+h1{
+    font-family: 'Lobster',cursive ;
+    font-size: 3em;
+    text-align: center;
+    /*background-image: url("images/fond.jpg");
+    background-size: cover;
+    background-position: center;*/
+    background: linear-gradient(#bdc3c7,#2c3e50);
+    width: 50%;
+    margin:auto;
+    
+}  
+
+.age{
+    font-weight: 700;
+    text-decoration:wavy ;
+}
+
+body{
+    background: linear-gradient(#bdc3c7,#2c3e50 );
+}
+
+.conteneur {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* espace entre les éléments */
+}
+
+.descriptif {
+    flex: 1;
+}
+
+.pp img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+.competences {
+    /*text-align: center;*/
+    margin: 40px auto;
+  }
+  
+  .colonnes {
+    display: flex;
+    /*justify-content: center;*/
+    gap: 60px; /* espace entre les deux colonnes */
+    flex-wrap: wrap; /* permet l’adaptation sur petits écrans */
+    margin-top: 20px;
+  }
+  
+  .prog, .log {
+    text-align: left;
+    min-width: 200px;
+  }
+  
+  .prog ul, .log ul {
+    list-style: square;
+    padding-left: 20px;
+  }
+  
+  .prog li, .log li {
+    margin-bottom: 8px;
+  }
+  
+.conteneur2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* espace entre les éléments */
+}
+.conteneur3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* espace entre les éléments */
+}
+.conteneur4 {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 330px; /* espace entre les éléments */
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    border-top: 2px solid #ccc;
+  }
+  footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0055a5;
+  }
+
+section {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+
